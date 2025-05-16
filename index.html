@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da aba -->
+  <title>HTML Base</title>
+</head>
+
+<body>
+
+  <!-- Barra de navegação -->
+  <nav>
+    <ul>
+      <li><a href="blog.html">Início</a></li>
+    </ul>
+  </nav>
+
+  <!-- Cabeçalhos -->
+  <h1>Cabeçalho nível 1</h1>
+  <h2>Cabeçalho nível 2</h2>
+  <h3>Cabeçalho nível 3</h3>
+  <h4>Cabeçalho nível 4</h4>
+  <h5>Cabeçalho nível 5</h5>
+  <h6>Cabeçalho nível 6</h6>
+
+  <!-- Parágrafos com formatação -->
+  <p>
+    Lorem ipsum <strong>destaque</strong> dolor sit amet consectetur adipisicing elit.
+    Ducimus natus laudantium rem <a href="https://google.com" target="_blank">Google</a>
+    dolorem pariatur sequi veritatis at accusamus. Iusto neque quis sapiente
+    modi! Omnis nostrum libero laborum id incidunt eos?
+  </p>
+
+  <p>
+    Lorem <em>itálico</em> ipsum dolor sit amet consectetur adipisicing elit. Et, aspernatur.
+  </p>
+
+  <!-- Links úteis -->
+  <a href="https://www.youtube.com/watch?v=r0CWl2EhR6Q&list=PLm-VCNNTu3Lmu5gOgJ_l8rWCJ2T2uexDE&index=3"
+    target="_blank">Aula HTML</a>
+  <br>
+  <a href="instrucoes.txt" download>Instruções</a>
+
+  <!-- Div com classe -->
+  <div class="dicasparadevs"></div>
+
+  <!-- Tabela de dados -->
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Idade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Teste</td>
+        <td>teste@email.com</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>Teste2</td>
+        <td>teste2@email.com</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>Teste3</td>
+        <td>teste3@email.com</td>
+        <td>25</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <hr>
+
+  <!-- Formulário de cadastro -->
+  <form action="form.php" method="POST">
+
+    <div>
+      <label for="nome">Primeiro nome:</label>
+      <input type="text" id="nome" placeholder="Digite seu nome">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Digite seu email">
+    </div>
+
+    <div>
+      <label for="genero">Gênero:</label>
+      <select id="genero" name="genero">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="nascimento">Data de nascimento:</label>
+      <input type="date" id="nascimento" name="nascimento">
+    </div>
+
+    <div>
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" placeholder="Digite sua senha">
+    </div>
+
+    <div>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+    </div>
+
+    <input type="submit" value="Enviar">
+
+  </form>
+
+  <br>
+
+  <!-- Botão -->
+  <button type="button">Clique aqui</button>
+
+  <br><br>
+
+  <!-- Imagem -->
+  <img src="/img/testedeimg.jpg" alt="Imagem de teste" width="300" height="300">
+
+  <!-- Citação -->
+  <blockquote cite="https://dicasparadevs.com.br">
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa rem ullam
+    beatae dignissimos maxime eius autem, molestias impedit tempora,
+    voluptatem dolore eos quod a consequatur vero quisquam expedita. Eveniet."
+  </blockquote>
+
+  <!-- Abreviação -->
+  <p>Nome inteiro: <abbr title="Meu Nome Inteiro">MNI</abbr></p>
+
+</body>
+
+</html>
